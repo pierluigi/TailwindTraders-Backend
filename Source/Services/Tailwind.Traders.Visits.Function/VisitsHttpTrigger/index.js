@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const ProductVisitModel = require('./schema/productVisit');
 const authorization = require('./security/authorization');
+// Adding a random comment - will it build?
 
 var _connection = (function(){
     var item = process.env.CONNECTIONSTRING.split('/?');
